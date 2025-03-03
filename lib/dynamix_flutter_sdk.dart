@@ -13,9 +13,10 @@ class TemplateSdk {
   TemplateSdk._internal();
 
   /// Initialize the SDK with base URL
-  void initialize({required String baseUrl}) {
-    _baseUrl = baseUrl;
-    _service.initialize(baseUrl);
+  void initialize() {
+    var url = "https://3f63-45-112-40-193.ngrok-free.app/api/notifications/templates";
+    _baseUrl = url;
+    _service.initialize(url);
   }
 
   /// Show templates for app open

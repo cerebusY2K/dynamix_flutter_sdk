@@ -5,9 +5,7 @@ import 'screens/screen_two.dart';
 import 'screens/screen_three.dart';
 
 void main() {
-  TemplateSdk.instance.initialize(
-    baseUrl: 'https://3f63-45-112-40-193.ngrok-free.app/api/notifications/templates'
-  );
+  TemplateSdk.instance.initialize();
   runApp(const MyApp());
 }
 
