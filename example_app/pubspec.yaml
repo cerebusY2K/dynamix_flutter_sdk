@@ -1,0 +1,21 @@
+name: example_app
+description: Example app demonstrating template SDK usage
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dynamix_flutter_sdk:
+    path: ../ # Local path to the SDK package
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true 
