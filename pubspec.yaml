@@ -1,7 +1,8 @@
 name: dynamix_flutter_sdk
 description: "A new Flutter package project."
 version: 0.0.1
-homepage:
+homepage: https://www.mehery.com
+repository: https://github.com/cerebusY2K/dynamix_flutter_sdk
 
 environment:
   sdk: ^3.6.1
